@@ -1,0 +1,16 @@
+{
+  "name": "tradowix-ai-signals-bot",
+  "version": "1.0.0",
+  "description": "TRADOWIX AI Signals Telegram Bot - Automated OTC Trading Signals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.5.0"
+  }
+}
